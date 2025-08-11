@@ -44,11 +44,11 @@ nav {
 .nav__links a {
   white-space: nowrap;
   font-weight: 500;
-  color: var(--text-dark);
+  color: white;
 }
 
 .nav__links a:hover {
-  color: var(--white);
+  color: var(--marrom-oliva);
 }
 
 .nav__menu__btn {

@@ -2,6 +2,7 @@
 
 @import url('nav.css');
 @import url('header.css');
+@import url('about.css');
 
 :root {
   --text-dark: #0a0a0a;
@@ -71,10 +72,34 @@ a {
 html,
 body {
   scroll-behavior: smooth;
+  background-color: var(--bege-rosado);
 }
 
 body {
   font-family: "Poppins", sans-serif;
+}
+
+.section-content {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: var(--max-width);
+}
+
+.section-title {
+    text-align: center;
+    padding: 60px 0 100px;
+    text-transform: uppercase;
+    font-size: var(--font-size-5);
+}
+
+.section-title::after {
+    content: "";
+    width: 80px;
+    height: 5px;
+    display: block;
+    background: var(--vermelho-tijolo);
+    border-radius: var(--border-radius-1);
+    margin: 10px auto 0;
 }
 
 @keyframes scroll-right {
