@@ -3,6 +3,9 @@
 @import url('nav.css');
 @import url('header.css');
 @import url('about.css');
+@import url('menu.css');
+@import url('gallery.css');
+@import url('footer.css');
 
 :root {
   --text-dark: #0a0a0a;

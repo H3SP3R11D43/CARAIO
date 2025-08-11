@@ -24,26 +24,3 @@ headerImage.addEventListener(
   },
   { once: true }
 );
-
-const scrollRevealOption = {
-  distance: "50px",
-  origin: "bottom",
-  duration: 1000,
-};
-
-ScrollReveal().reveal(".header__content h1", {
-  ...scrollRevealOption,
-  delay: 1000,
-});
-ScrollReveal().reveal(".header__content h2", {
-  ...scrollRevealOption,
-  delay: 1500,
-});
-ScrollReveal().reveal(".header__content p", {
-  ...scrollRevealOption,
-  delay: 2000,
-});
-ScrollReveal().reveal(".header__content div", {
-  ...scrollRevealOption,
-  delay: 2500,
-});
