@@ -108,6 +108,7 @@
     padding: 10px 15px;
     font-weight: 600;
     border-radius: var(--border-radius-1);
+    color: var(--vermelho-vinho);
 }
 
 #zap:hover {
@@ -175,3 +176,4 @@
     line-height: 4rem;
   }
 }
+
