@@ -33,17 +33,17 @@ const scrollRevealOption = {
 
 ScrollReveal().reveal(".header__content h1", {
   ...scrollRevealOption,
-  delay: 1500,
+  delay: 1000,
 });
 ScrollReveal().reveal(".header__content h2", {
   ...scrollRevealOption,
-  delay: 2000,
+  delay: 1500,
 });
 ScrollReveal().reveal(".header__content p", {
   ...scrollRevealOption,
-  delay: 2500,
+  delay: 2000,
 });
 ScrollReveal().reveal(".header__content div", {
   ...scrollRevealOption,
-  delay: 3000,
+  delay: 2500,
 });
