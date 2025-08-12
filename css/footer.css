@@ -14,3 +14,19 @@ footer {
     color: white;
     font-weight: 600;
 }
+
+.footer__credits {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #f0f0f0; 
+}
+
+.footer__credits a {
+  color: #fff;
+  text-decoration: underline; 
+  font-weight: 500;
+}
+
+.footer__credits a:hover {
+  color: #ccc; 
+}
